@@ -4,25 +4,25 @@
         {
             "id": 1,
             "name": "buttermilk pancakes",
-            "category": "breakfast",
+            "category": "all",
             "price": 15.99,
-            "img": "https://react-projects-5-menu.netlify.app/images/item-1.jpeg",
-            "ingredients": "butter, eggs, salt, flour, syrup, sugar"
-            },
+            "img": "https://images.unsplash.com/photo-1605959255155-832d05b77e6d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGJ1dHRlcm1pbGslMjBwYW5jYWtlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+            "ingredients": "butter, eggs, salt, flour, syrup, sugar, raspberries"
+        },
         {
             "id": 2,
             "name": "pasta",
             "category": "dinner",
             "price": 9.99,
-            "img": "https://react-projects-5-menu.netlify.app/images/item-1.jpeg",
+            "img": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHBhc3RhfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
             "ingredients": "onions, pepper, salt, garlic"
         },
         {
             "id": 3,
             "name": "tacos",
             "category": "mains for sharing",
-            "price": 10.99,
-            "img": "https://react-projects-5-menu.netlify.app/images/item-1.jpeg",
+            "price": 13.99,
+            "img": "https://images.unsplash.com/photo-1599974579688-8dbdd335c77f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGFjb3N8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
             "ingredients": "bacon, salt, flour, chicken, beef, shrimp"
         },
         {
@@ -30,9 +30,99 @@
             "name": "magarita",
             "category": "drinks",
             "price": 8.99,
-            "img": "https://react-projects-5-menu.netlify.app/images/item-1.jpeg",
+            "img": "https://images.unsplash.com/photo-1541976076758-347942db1975?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bWFyZ2FyaXRhfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
             "ingredients": "tequila, lime juice, cointreau, salt"
+        },
+        {
+            "id": 5,
+            "name": "poached eggs and avocado toast",
+            "category": "breakfast",
+            "price": 8.55,
+            "img": "https://images.unsplash.com/photo-1613769049987-b31b641f25b1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cG9hY2hlZCUyMGVnZ3MlMjBhbmQlMjBhdm9jYWRvfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+            "ingredients": "eggs, vinegar, bread, avocado, spinach, salt, pepper, tomatoes, cheese"
+        },
+        {
+            "id": 6,
+            "name": "eggs benedict",
+            "category": "breakfast",
+            "price": 8.75,
+            "img": "https://images.unsplash.com/photo-1608039829572-78524f79c4c7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZWdncyUyMGJlbmVkaWN0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+            "ingredients": "eggs, Canadian bacon, vinegar, English muffins, butter, parsley, lemon juice, salt, hot sauce"
+        },
+        {
+            "id": 7,
+            "name": "breakfast burrito",
+            "category": "breakfast",
+            "price": 6.75,
+            "img": "https://images.unsplash.com/photo-1592044903782-9836f74027c0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YnJlYWtmYXN0JTIwYnVycml0b3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+            "ingredients": "onions, black pepper, black beans, chili flakes, salt, eggs, salsa, tomatoes, avocado, hot sauce, cheese, yogurt, tortillas"
+        },
+        {
+            "id": 8,
+            "name": "belgian waffles",
+            "category": "breakfast",
+            "price": 7.25,
+            "img": "https://images.unsplash.com/photo-1456511280309-a5312dce4f38?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzl8fHdhZmZsZXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+            "ingredients": "flour, sugar, baking powder, eggs, milk, butter, vanilla extract, strawberries, blueberries, syrup"
+        },
+        {
+            "id": 9,
+            "name": "fried rice",
+            "category": "dinner",
+            "price": 12.95,
+            "img": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZnJpZWQlMjByaWNlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+            "ingredients": "rice, eggs, butter, veggies, soy sauce, oyster sauce, onions, pepper, tomatoes"
+        },
+        {
+            "id": 10,
+            "name": "lasagna",
+            "category": "dinner",
+            "price": 12.95,
+            "img": "https://images.pexels.com/photos/4079522/pexels-photo-4079522.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+            "ingredients": "ground beef, italian sausage, onions, garlic, tomatoes, sugar, basil leaves, salt, black pepper, parsley, cheese, eggs"
+        },
+        {
+            "id": 11,
+            "name": "chicken burger",
+            "category": "all",
+            "price": 6.95,
+            "img": "https://images.unsplash.com/photo-1606755962773-d324e0a13086?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hpY2tlbiUyMGJ1cmdlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+            "ingredients": "chicken, bread buns, onions, garlic, pepper, drip sauce, pickles, veggies"
+        },
+        {
+            "id": 12,
+            "name": "pizza",
+            "category": "mains for sharing",
+            "price": 15.99,
+            "img": "https://images.unsplash.com/photo-1574126154517-d1e0d89ef734?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cGl6emF8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+            "ingredients": "pizza dough, cheese, toppings"
+        },
+        {
+            "id": 13,
+            "name": "apple pie",
+            "category": "desserts",
+            "price": 7.99,
+            "img": "https://unsplash.com/photos/dQLOAxtOLu8",
+            "ingredients": "flour, sugar, salt, butter, eggs, lemon juice, cinnamon, nutmeg, applle"
+        },
+        {
+            "id": 14,
+            "name": "lemon cake",
+            "category": "desserts",
+            "price": 7.99,
+            "img": "https://images.unsplash.com/photo-1541781622821-8af65b6b449f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGxlbW9uJTIwY2FrZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+            "ingredients": "lemon juice, kosher salt, buttermilk, vanilla extract, flour, sugar, eggs"
+        },
+        {
+            "id": 15,
+            "name": "martini",
+            "category": "drinks",
+            "price": 9.99,
+            "img": "https://images.unsplash.com/photo-1597075687490-8f673c6c17f6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFydGluaXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+            "ingredients": "lemon peel, olives, vodka"
         }
+
+        
     ]    
 }
 
