@@ -1,0 +1,39 @@
+
+{ 
+    "menu": [
+        {
+            "id": 1,
+            "name": "buttermilk pancakes",
+            "category": "breakfast",
+            "price": 15.99,
+            "img": "https://react-projects-5-menu.netlify.app/images/item-1.jpeg",
+            "ingredients": "butter, eggs, salt, flour, syrup, sugar"
+            },
+        {
+            "id": 2,
+            "name": "pasta",
+            "category": "dinner",
+            "price": 9.99,
+            "img": "https://react-projects-5-menu.netlify.app/images/item-1.jpeg",
+            "ingredients": "onions, pepper, salt, garlic"
+        },
+        {
+            "id": 3,
+            "name": "tacos",
+            "category": "mains for sharing",
+            "price": 10.99,
+            "img": "https://react-projects-5-menu.netlify.app/images/item-1.jpeg",
+            "ingredients": "bacon, salt, flour, chicken, beef, shrimp"
+        },
+        {
+            "id": 4,
+            "name": "magarita",
+            "category": "drinks",
+            "price": 8.99,
+            "img": "https://react-projects-5-menu.netlify.app/images/item-1.jpeg",
+            "ingredients": "tequila, lime juice, cointreau, salt"
+        }
+    ]    
+}
+
+  
